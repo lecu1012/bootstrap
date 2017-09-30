@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>例コード</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</head>
+<body>
+  <header class="clearfix">
+  </header>
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="row bg-dark p-3 clearfix">
+        <div class="col-md-6 left">
+          <h4 class="text-white bg-dark">見出し１</h4>
+          <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="#">contents1</a></li>
+              <li class="list-group-item"><a href="#">contents2</a></li>
+              <li class="list-group-item"><a href="#">contents3</a></li>
+              <li class="list-group-item"><a href="#">contents4</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 right">
+          <h4 class="text-white bg-dark">見出し２</h4>
+          <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="#">contents1</a></li>
+              <li class="list-group-item"><a href="#">contents2</a></li>
+              <li class="list-group-item"><a href="#">contents3</a></li>
+              <li class="list-group-item"><a href="#">contents4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<%= yield %>
+
+  <footer>
+    <p>運営会社DIVE INTO CODE株式会社</p>
+    <p>© 2015-2016 Copyright DIVE INTO CODE Corp.</p>
+  </footer>
+
+</body>
+</html>
